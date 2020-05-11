@@ -1,10 +1,18 @@
 @import "../mixins/media";
 
 header {
-    width: 220px;
-    background-color: red;
 
-    @include media-tablet {
-        width: 500px;
-    }
+}
+
+.header-block {
+    background-image: url(../img/header-back.png )center top no-repeat;
+    height: auto;
+    width: 80%;
+    margin: 10px auto;
+}
+.header-image {
+    background-image: url(../img/header-moon.png )right top no-repeat;
+    height: 236px;
+    margin-right: 41px;
+    //position: relative;
 }
