@@ -5,9 +5,11 @@ Thumbs.db
 # IntelliJ project files
 .idea
 *.iml
+*.xml
 out
 gen
 /node_modules
+
 
 # Вспомогательные файлы
 *.log*
